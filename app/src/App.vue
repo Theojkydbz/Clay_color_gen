@@ -3,9 +3,9 @@
     
     <logo></logo>
     
-    <card></card>
-    <p>MADE WITH <img src="./assets/logo.png" alt="" style="width:3vh; transform:translateY(1vh)"> BY <a href="http://www.theogeiller.com">THEO GEILLER</a></p>
-  
+
+    <like></like>
+    
   </div>
 
 </template>
@@ -14,15 +14,16 @@
 
 <script>
  
-import card from "./components/card.vue"
+
 import logo from "./components/logo.vue"
+import like from "./components/like.vue"
 
 export default {
 
   components: {
 
-    card,
-    logo
+    logo,
+    like
 
   },
   
