@@ -246,6 +246,7 @@ export default {
         copyClip: function () {
             copyToClipboard("hola")
             console.log("copieur1")
+            
         },
         
         copyToClipboard: function (element) {
